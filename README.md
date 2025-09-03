@@ -1,13 +1,13 @@
-### Ex.No.3 – Scenario-Based Report Development Utilizing Diverse Prompting Techniques
+# Ex.No.3 – Scenario-Based Report Development Utilizing Diverse Prompting Techniques
 
 ## DATE: 01-09-2025
 ## REGISTER NUMBER: 212223060209
 
-# Aim
+##  Aim
 
 To design an AI-powered travel assistant chatbot that helps users plan trips, book hotels, and check weather conditions. The chatbot should manage diverse queries efficiently while maintaining a natural and user-friendly tone. In this experiment, we apply scenario-based prompting techniques such as straightforward prompting, tabular format prompting, and preceding question prompting to simulate real-world use cases.
 
-Explanation
+## Explanation
 
 Modern travelers rely heavily on AI assistants for decision-making related to destinations, accommodations, and itineraries. To serve this need, we create a Travel Planner Chatbot.
 
@@ -17,14 +17,17 @@ Prompt Techniques Used: Straightforward prompts, tabular format prompts, and pre
 
 Goal: Ensure clarity, personalization, and quick access to essential travel information.
 
-Procedure
-1. Define the Scenario & Use Case
+<img width="1024" height="1536" alt="image" src="https://github.com/user-attachments/assets/f15029cf-a557-47ab-ba47-979c53f16d0e" />
+
+
+## Procedure
+### 1. Define the Scenario & Use Case
 
 Scenario: A tourist wants to plan a 3-day trip and needs quick recommendations.
 
 Use Case: Chatbot generates structured travel plans with attractions, hotel details, and expected weather.
 
-Target Audience:
+### Target Audience:
 
 Tourists and frequent travelers
 
@@ -32,7 +35,7 @@ Travel agencies
 
 Online booking platforms
 
-2. Main Objectives
+### 2. Main Objectives
 
 🌍 Suggest destinations and attractions.
 
@@ -42,7 +45,7 @@ Online booking platforms
 
 📋 Present trip details in structured tables for quick decision-making.
 
-3. Identify Prompt Patterns for Design
+### 3. Identify Prompt Patterns for Design
 
 a) Straightforward Prompting
 
@@ -64,19 +67,19 @@ Step 2 Prompt: “Include this weather info in the travel plan table.”
 
 Output: Enriched travel plan with weather data included.
 
-4. Output
+### 4. Output
 Travel Plan for Goa (September)
-📅 Day	🏖️ Attractions	🏨 Hotel Option	🌦️ Weather Info
-Day 1	Baga Beach, Fort Aguada	Taj Holiday Village	Sunny, 30°C
-Day 2	Dudhsagar Waterfalls, Spice Farm	Novotel Goa Resort	Cloudy, 28°C
-Day 3	Calangute Market, Cruise Ride	Marriott Goa Resort	Partly Cloudy, 29°C
-5. Generative Images
+<img width="1283" height="355" alt="image" src="https://github.com/user-attachments/assets/be4745ee-497a-48a5-85cf-28333d0941e4" />
 
-Travel Itinerary Infographic
+
+### Travel Itinerary Infographic
 
 Colorful visual showing Day 1, Day 2, Day 3 with icons for beaches, waterfalls, shopping, and hotels.
 
-Chatbot Workflow Diagram
+### Chatbot Workflow Diagram
+
+
+
 
 User asks: “Plan my trip to Goa.”
 
@@ -84,10 +87,7 @@ AI generates: Table with attractions, hotels, weather.
 
 Output: Structured travel guide.
 
-<img width="1283" height="355" alt="image" src="https://github.com/user-attachments/assets/be4745ee-497a-48a5-85cf-28333d0941e4" />
-
-
-Conclusion
+### Conclusion
 
 The travel assistant chatbot was developed using diverse prompting techniques. By combining straightforward, tabular, and preceding question prompts, the system successfully provided clear itineraries, hotel options, and weather information.
 
