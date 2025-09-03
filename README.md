@@ -17,7 +17,7 @@ Prompt Techniques Used: Straightforward prompts, tabular format prompts, and pre
 
 Goal: Ensure clarity, personalization, and quick access to essential travel information.
 
-<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/f15029cf-a557-47ab-ba47-979c53f16d0e" />
+<img width="600" height="700" alt="image" src="https://github.com/user-attachments/assets/f15029cf-a557-47ab-ba47-979c53f16d0e" />
 
 
 ## Procedure
