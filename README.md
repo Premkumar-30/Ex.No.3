@@ -79,19 +79,14 @@ Colorful visual showing Day 1, Day 2, Day 3 with icons for beaches, waterfalls, 
 ### Chatbot Workflow Diagram
 
 
+<img width="600" height="700" alt="image" src="https://github.com/user-attachments/assets/5f3e20e3-2aaf-4e32-9f36-b4a14a814e58" />
 
-
-User asks: “Plan my trip to Goa.”
-
-AI generates: Table with attractions, hotels, weather.
-
-Output: Structured travel guide.
 
 ### Conclusion
 
 The travel assistant chatbot was developed using diverse prompting techniques. By combining straightforward, tabular, and preceding question prompts, the system successfully provided clear itineraries, hotel options, and weather information.
 
-Result: The chatbot outputs were structured, visually engaging, and useful for travelers in real-world scenarios.
+### Result: The chatbot outputs were structured, visually engaging, and useful for travelers in real-world scenarios.
 
 
 
