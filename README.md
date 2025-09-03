@@ -41,7 +41,7 @@ Prompt Pattern:
 Prompt: "When a customer asks for help, first reflect their question back to them. For example, if they ask 'How can I reset my password?' respond with 'You're asking how to reset your password, correct? Here’s how you can do it.'"
 Result: The various types of Prompts are executed successfully.
 
-###P Prompt and Output:
+### Prompt and Output:
 
 # 1. Direct Instruction Prompts
 Use Case: Order Status Inquiry
