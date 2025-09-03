@@ -1,219 +1,105 @@
-# Exno.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques                                                                      
-### REGISTER NUMBER : 212223060209
-### Aim: 
-To design an AI-powered chatbot that assists customers in resolving issues related to product troubleshooting, order tracking, and general inquiries. The chatbot should handle various customer queries efficiently while maintaining a conversational and user-friendly tone. In this experiment, we will employ different prompt patterns to guide the development process of the chatbot, ranging from basic task-oriented prompts to more complex, persona-driven prompts.
-
-### Algorithm:  1. Direct Instruction Prompts
-Objective: Guide the chatbot to respond concisely to customer inquiries.
-Prompt Pattern:
-Prompt: "When a customer asks for the status of their order, reply with: 'Your order is currently being processed and will be delivered by [date].'"
-2. Contextual Prompting
-Objective: Incorporate specific context to provide detailed answers based on the user’s previous interaction.
-Prompt Pattern:
-Prompt: "If the customer previously mentioned that they haven’t received their order, say, 'I see that you mentioned your order hasn't arrived yet. Let me check the details for you and get back shortly.'"
-3. Persona-Based Prompting
-Objective: Design the chatbot to adopt a specific persona, making the interaction more engaging.
-Prompt Pattern:
-Prompt: "Pretend you are a friendly, helpful customer service representative. Use a conversational tone, such as 'Hey there! I’m here to help with any questions you might have. Let’s get your issue sorted!'"
-4. Few-Shot Prompting
-Objective: Teach the AI how to respond using a few examples, enabling it to generalize for similar situations.
-Prompt Pattern:
-Prompt: "Here are some examples of how to handle technical questions:
-'My phone isn't charging.' → 'Have you tried using a different cable? If that doesn’t work, it may be an issue with the port.'
-'The screen is flickering.' → 'It sounds like a display issue. Have you tried restarting the device?'
-Now, respond to: 'My app keeps crashing.'"
-5. Chain of Thought Prompting
-Objective: Use a step-by-step reasoning approach for resolving more complex or technical issues.
-Prompt Pattern:
-Prompt: "When a customer reports their laptop overheating, guide them through the following steps:
-Ask if they are using the laptop on a soft surface.
-Suggest moving the laptop to a flat, hard surface for better airflow.
-Ask if they’ve cleaned the vents recently.
-Recommend restarting the device to see if the issue persists.
-Now, solve: 'My laptop fan is making a loud noise.'"
-6. Instruction with Constraints
-Objective: Instruct the chatbot to provide assistance while adhering to specific constraints (e.g., response length or tone).
-Prompt Pattern:
-Prompt: "Respond to order inquiries in no more than 50 words and avoid using technical jargon. For example, 'Your order is on the way and should arrive by [date]. Feel free to reach out if you need anything else.'"
-7. Reflective Prompting
-Objective: Ensure that the chatbot reflects the user’s query back to them before providing a response, reducing misunderstandings.
-Prompt Pattern:
-Prompt: "When a customer asks for help, first reflect their question back to them. For example, if they ask 'How can I reset my password?' respond with 'You're asking how to reset your password, correct? Here’s how you can do it.'"
-Result: The various types of Prompts are executed successfully.
+Ex.No.3 – Scenario-Based Report Development Utilizing Diverse Prompting Techniques
 
-### Prompt and Output:
+DATE: 01-09-2025
+REGISTER NUMBER: 212223060209
 
-# 1. Direct Instruction Prompts
-Use Case: Order Status Inquiry
+Aim
 
-Scenario: Customer asks, “Has my order shipped yet?”
+To design an AI-powered travel assistant chatbot that helps users plan trips, book hotels, and check weather conditions. The chatbot should manage diverse queries efficiently while maintaining a natural and user-friendly tone. In this experiment, we apply scenario-based prompting techniques such as straightforward prompting, tabular format prompting, and preceding question prompting to simulate real-world use cases.
 
-Refined Chatbot Response:
-"Your order is currently being processed and is expected to ship by May 10. You will receive an email with tracking details once it ships. Is there anything else I can assist you with?"
+Explanation
 
-Explanation:
-By providing more precise information about when the order will ship (rather than just saying it's "being processed"), the chatbot sets clear expectations. It also invites further engagement by offering additional help.
+Modern travelers rely heavily on AI assistants for decision-making related to destinations, accommodations, and itineraries. To serve this need, we create a Travel Planner Chatbot.
 
-Additional Scenario:
-Customer asks, “How can I track my order?”
+Use Case: Providing structured information about destinations, hotels, and weather conditions.
 
-Response:
-"You can track your order by visiting [tracking website], where you can enter your tracking number to get real-time updates. Let me know if you need assistance finding the number!"
+Prompt Techniques Used: Straightforward prompts, tabular format prompts, and preceding question prompts.
 
-# 2. Contextual Prompting
-Use Case: A Customer Reports Missing Item from Order
+Goal: Ensure clarity, personalization, and quick access to essential travel information.
 
-Scenario: Customer says, “I only received part of my order.”
+Procedure
+1. Define the Scenario & Use Case
 
-Refined Chatbot Response:
-"I see that part of your order is missing. Let me check on the remaining items for you. Can you please provide your order number so I can investigate further?"
+Scenario: A tourist wants to plan a 3-day trip and needs quick recommendations.
 
-Explanation:
-The response directly addresses the customer's concern while ensuring they are prompted to provide relevant information (order number) to move forward. The chatbot acknowledges the context of the previous statement, showing it is actively listening.
+Use Case: Chatbot generates structured travel plans with attractions, hotel details, and expected weather.
 
-Additional Scenario:
-Customer says, “I have already contacted you about my refund.”
+Target Audience:
 
-Response:
-"Thanks for letting me know. I see you've already reached out about your refund. Let me check the status for you and get back with an update shortly."
+Tourists and frequent travelers
 
-# 3. Persona-Based Prompting
-Use Case: Friendly & Empathetic Interaction
+Travel agencies
 
-Scenario: Customer starts a chat with a general inquiry about a product.
+Online booking platforms
 
-Refined Chatbot Response:
-"Hey there! 😊 I’m here to help you out with anything you need! Whether it’s finding the perfect product or answering any questions you have, I’m just a message away. What can I do for you today?"
+2. Main Objectives
 
-Explanation:
-Using emojis and a cheerful tone, the chatbot offers an upbeat, friendly experience that feels more personal. This helps build rapport with the customer from the start.
+🌍 Suggest destinations and attractions.
 
-Additional Scenario:
-Customer says, “I’m so frustrated with this product!”
+🏨 Provide hotel options with budget ranges.
 
-Response:
-"I totally get how frustrating that must be! 😔 Let’s figure out what’s going wrong and get this sorted for you. Can you tell me a bit more about the issue?"
+🌦️ Share weather conditions for the travel period.
 
-# 4. Few-Shot Prompting
-Use Case: Technical Troubleshooting
+📋 Present trip details in structured tables for quick decision-making.
 
-Scenario: Customer says, “My headphones aren’t connecting to Bluetooth.”
+3. Identify Prompt Patterns for Design
 
-Refined Chatbot Response (learned pattern):
-_"Let’s try a couple of things to fix that:
+a) Straightforward Prompting
 
-Make sure Bluetooth is enabled on your device.
+Prompt: “Suggest a 3-day travel plan for Goa with places to visit and hotels.”
 
-Forget the headphones from your Bluetooth settings and try reconnecting them.
+Output: A simple itinerary with 2–3 attractions per day and hotel names.
 
-If that doesn’t work, try restarting your phone and turning the headphones on again.
-Let me know how it goes!"_
+b) Tabular Format Prompting
 
-Explanation:
-The chatbot uses a simple, step-by-step troubleshooting approach based on a few-shot pattern from similar tech issues, such as Bluetooth problems. It breaks down the solution into manageable steps, increasing the chances of a quick resolution.
+Prompt: “Present the 3-day Goa itinerary in a table with columns for Day, Attractions, Hotel, and Weather.”
 
-Additional Scenario:
-Customer says, “I’m getting an error message on my app.”
+Output: Clear structured table.
 
-Response:
-_"Let’s start by trying a few things:
+c) Preceding Question Prompting
 
-Close and reopen the app.
+Step 1 Prompt: “What is the average weather in Goa in September?”
 
-Check if there’s an update available.
+Step 2 Prompt: “Include this weather info in the travel plan table.”
 
-If the issue persists, try reinstalling the app.
-If you still see the error, send me a screenshot and I’ll look into it further."_
+Output: Enriched travel plan with weather data included.
 
-# 5. Chain of Thought Prompting
-Use Case: Troubleshooting More Complex Issues
+4. Output
+Travel Plan for Goa (September)
+📅 Day	🏖️ Attractions	🏨 Hotel Option	🌦️ Weather Info
+Day 1	Baga Beach, Fort Aguada	Taj Holiday Village	Sunny, 30°C
+Day 2	Dudhsagar Waterfalls, Spice Farm	Novotel Goa Resort	Cloudy, 28°C
+Day 3	Calangute Market, Cruise Ride	Marriott Goa Resort	Partly Cloudy, 29°C
+5. Generative Images
 
-Scenario: Customer says, “My laptop is overheating.”
+Travel Itinerary Infographic
 
-Refined Chatbot Response:
-_"Let’s troubleshoot step by step:
+Colorful visual showing Day 1, Day 2, Day 3 with icons for beaches, waterfalls, shopping, and hotels.
 
-Are you using your laptop on a soft surface (like a bed or couch)? This can block the air vents.
+Chatbot Workflow Diagram
 
-Try placing the laptop on a flat, hard surface to help with cooling.
+User asks: “Plan my trip to Goa.”
 
-Have you cleaned the fans recently? Dust buildup can cause overheating.
+AI generates: Table with attractions, hotels, weather.
 
-If it’s still overheating, consider checking for any software or apps running in the background that might be using too much power.
-Let me know what happens after these steps!"_
+Output: Structured travel guide.
 
-Explanation:
-The chatbot methodically walks the user through potential causes of the issue and provides a structured way to narrow down the problem. This chain-of-thought approach works well for more complex technical issues where multiple factors could be at play.
+<img width="1283" height="355" alt="image" src="https://github.com/user-attachments/assets/be4745ee-497a-48a5-85cf-28333d0941e4" />
 
-Additional Scenario:
-Customer says, “My printer isn’t connecting to Wi-Fi.”
 
-Response:
-_"Let’s break it down:
+Conclusion
 
-First, check if your Wi-Fi is working fine with other devices.
+The travel assistant chatbot was developed using diverse prompting techniques. By combining straightforward, tabular, and preceding question prompts, the system successfully provided clear itineraries, hotel options, and weather information.
 
-Make sure your printer is in range of the router.
+Result: The chatbot outputs were structured, visually engaging, and useful for travelers in real-world scenarios.
 
-Try restarting both the printer and the router.
 
-Ensure your printer is connected to the correct Wi-Fi network.
-Let me know if these steps help!"_
 
-# 6. Instruction with Constraints
-Use Case: Short, Concise Responses
 
-Scenario: Customer asks, “When will my refund be processed?”
 
-Refined Chatbot Response (≤50 words, no jargon):
-"Your refund is being processed and should be completed by May 10. You’ll receive a confirmation email once it's done. Please reach out if you need any more information!"
 
-Explanation:
-This response adheres to the constraint of being concise (under 50 words), while still addressing the query clearly. It avoids any jargon and offers an easy-to-understand solution while maintaining a polite and helpful tone.
 
-Additional Scenario:
-Customer asks, “How do I cancel my order?”
 
-Response:
-"To cancel your order, please go to your order history and select the ‘Cancel Order’ option. If you need help with this, just let me know!"
 
-# 7. Reflective Prompting
-Use Case: Clarifying the Customer’s Request
 
-Scenario: Customer says, “How do I return a defective item?”
-
-Refined Chatbot Response:
-_"You’re asking how to return a defective item, right? Here’s how you can do it:
-
-Log in to your account and go to your order history.
-
-Select the item you wish to return and click ‘Return Item.’
-
-Follow the steps to print your return label.
-Let me know if you need help with any step!"_
-
-Explanation:
-The chatbot first reflects the customer’s inquiry to confirm its understanding, then provides clear and actionable steps. This method ensures the customer feels heard and confident that the solution is tailored to their request.
-
-Additional Scenario:
-Customer says, “I need to change my shipping address.”
-
-Response:
-_"You're asking how to update your shipping address, correct? Here’s how:
-
-Go to your account settings.
-
-Click on ‘Shipping Address.’
-
-Enter the new address and save the changes.
-Let me know if you have any questions!"_
-
-Conclusion:
-Each of these refined examples can be adapted for various customer service situations, from simple order inquiries to more complex troubleshooting. The patterns offer flexibility for tailoring responses in a way that feels natural and empathetic, while also ensuring efficiency. Let me know if you'd like to dive into specific industry examples (e.g., e-commerce, tech support) or explore further use cases!
-
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/0f01115e-36ab-454f-b3ef-d8f1c97ad925" />
-
-
-# Result:
-Thus the Prompts were exected succcessfully .
 
