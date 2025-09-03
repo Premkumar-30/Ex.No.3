@@ -1,6 +1,6 @@
 # Exno.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques
 ### DATE:                                                                            
-### REGISTER NUMBER : 212222040091
+### REGISTER NUMBER : 212223060209
 ### Aim: To design an AI-powered chatbot that assists customers in resolving issues related to product troubleshooting, order tracking, and general inquiries. The chatbot should handle various customer queries efficiently while maintaining a conversational and user-friendly tone. In this experiment, we will employ different prompt patterns to guide the development process of the chatbot, ranging from basic task-oriented prompts to more complex, persona-driven prompts.
 
 ### Algorithm:  1. Direct Instruction Prompts
@@ -211,6 +211,8 @@ Let me know if you have any questions!"_
 Conclusion:
 Each of these refined examples can be adapted for various customer service situations, from simple order inquiries to more complex troubleshooting. The patterns offer flexibility for tailoring responses in a way that feels natural and empathetic, while also ensuring efficiency. Let me know if you'd like to dive into specific industry examples (e.g., e-commerce, tech support) or explore further use cases!
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/f87d70c6-1d1a-4043-a21a-e60395690ad4" />
 
-# Result: Thus the Prompts were exected succcessfully .
+# Result:
+Thus the Prompts were exected succcessfully .
 
