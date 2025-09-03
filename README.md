@@ -211,6 +211,8 @@ Let me know if you have any questions!"_
 Conclusion:
 Each of these refined examples can be adapted for various customer service situations, from simple order inquiries to more complex troubleshooting. The patterns offer flexibility for tailoring responses in a way that feels natural and empathetic, while also ensuring efficiency. Let me know if you'd like to dive into specific industry examples (e.g., e-commerce, tech support) or explore further use cases!
 
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/0f01115e-36ab-454f-b3ef-d8f1c97ad925" />
+
 
 # Result:
 Thus the Prompts were exected succcessfully .
