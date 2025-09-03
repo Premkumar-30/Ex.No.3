@@ -1,9 +1,9 @@
-Ex.No.3 – Scenario-Based Report Development Utilizing Diverse Prompting Techniques
+### Ex.No.3 – Scenario-Based Report Development Utilizing Diverse Prompting Techniques
 
-DATE: 01-09-2025
-REGISTER NUMBER: 212223060209
+## DATE: 01-09-2025
+## REGISTER NUMBER: 212223060209
 
-Aim
+# Aim
 
 To design an AI-powered travel assistant chatbot that helps users plan trips, book hotels, and check weather conditions. The chatbot should manage diverse queries efficiently while maintaining a natural and user-friendly tone. In this experiment, we apply scenario-based prompting techniques such as straightforward prompting, tabular format prompting, and preceding question prompting to simulate real-world use cases.
 
